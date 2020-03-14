@@ -1,0 +1,9 @@
+Package Control: Ctrl + Shift + P
+
+Package Install: Ctrl + Shift + P
+
+или
+
+На панели выбираем Preferences -> Package Control и поиске пишем Emmet, затем скачиваем
+
+Вуаля !
