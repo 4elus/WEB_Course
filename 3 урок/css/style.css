@@ -1,0 +1,63 @@
+/* ИМПОРТ ШРИФТА */
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap');
+
+*{
+	font-family: 'Inknut Antiqua', serif;
+}
+
+/* СТИЛИЗАЦИЯ ТЕКСТА */
+h1{
+	font-size: 2vw;
+	letter-spacing: 14px;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+/* MARGIN AND PADDING */
+
+.margin_paddin{
+	background: red;
+	border: 2px black solid;
+	margin: 50px;
+	padding: 75px;
+}
+
+/* FLOAT */
+.float{
+	border: 2px black solid;
+	margin-left: 20px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+/* POSITION */
+
+.one{
+	background: red;
+	position: absolute;
+	height: 1000px
+}
+
+.two{
+	background: green;
+	position: fixed;
+}
+
+.three{
+	background: red;
+	position: relative;
+	top: 41px;
+	z-index: 2;
+}
+
+.four{
+	background: green;
+	position: relative;
+	z-index: 1;
+}
