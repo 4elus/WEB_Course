@@ -1,0 +1,103 @@
+h1{
+	color: blue;
+	text-transform: uppercase;
+	position: relative;
+	top: 25px;
+}
+
+hr{
+	border: none;
+	color: blue;
+	background-color: #3AE2C3;
+	height: 2px;
+}
+
+img{
+	height: 300px;
+	width: 22.5%;
+	float: left;
+	margin: 1.25%;
+}
+
+.par{
+	color: blue;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+.line{
+	border-left: 2px solid #3AE2C3;
+	margin-left: 20px;
+	padding-left: 10px;
+}
+
+@keyframes shadow{
+	from {text-shadow: 145px 20px 3px yellow}
+	60%{text-shadow: 0 0 70px black}
+	to {text-shadow: 140px 0 3px orange}
+}
+
+h1{
+	animation: shadow 2s infinite ease-in-out;
+}
+
+.loader-container {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 150px;
+  height: 150px;
+  background: #BDE2E0;
+  border-radius: 50%;
+  border: 15px solid #D7695A;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 150px;
+  overflow: hidden;
+}
+@keyframes load {
+  100% {
+    transform: translateY(-1800px);
+  }
+}
+
+.loader {
+  animation: load 12s steps(12, end) infinite;
+}
+
+.container {
+  width: 660px;
+  margin: 50px auto;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 40px;
+}
+li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px; 
+  background-color: orange;
+}
+
+@-webkit-keyframes shake {
+  100% {
+    -webkit-transform: translateX(-30px);    
+  }
+}
+@keyframes shake {
+  100% {
+    transform: translateX(-30px);    
+  }
+}
+
+.alternate li {
+  -webkit-animation: shake 2.7s linear alternate infinite;
+  animation: shake 2.7s linear alternate infinite;
+}
