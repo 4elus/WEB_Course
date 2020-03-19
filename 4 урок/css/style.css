@@ -97,7 +97,47 @@ li {
   }
 }
 
-.alternate li {
-  -webkit-animation: shake 2.7s linear alternate infinite;
-  animation: shake 2.7s linear alternate infinite;
+h3{
+	text-align: center;
 }
+
+
+.container {
+  text-align: center;
+  margin: 50px auto;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 40px;
+}
+li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px; 
+  background-color: orange;
+
+}
+
+.alternate li {
+  -webkit-animation: shake .7s linear alternate infinite;
+  animation: shake .7s linear alternate infinite;
+}
+.alternate-reverse li, h3 {
+  -webkit-animation: shake 0.7s linear alternate-reverse infinite;
+  animation: shake 0.7s linear alternate-reverse infinite;
+}
+
+@-webkit-keyframes shake {
+  100% {
+    -webkit-transform: translateX(-30px);    
+  }
+}
+@keyframes shake {
+  100% {
+    transform: translateX(-30px);    
+  }
+}
+
