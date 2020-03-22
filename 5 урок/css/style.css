@@ -1,0 +1,44 @@
+.deg{
+	height: 200px;
+	background: linear-gradient(to top, #EECFBA, #C5DDE8);
+}
+
+.percent{
+	height: 200px;
+	background: linear-gradient(to left, #00B7FF 20%, #00FFA9 50%, #3AE2CE 30%);
+}
+
+.rad{
+	height: 200px;
+	background: radial-gradient(at top, white, #FF00A9);
+}
+
+.repeat-linear{
+	height: 200px;
+	background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+
+.repeat-rad{
+	height: 200px;
+	background: repeating-radial-gradient(circle, #b9ecfe, #b9ecfe 10px, #82ddff 10px, #82ddff 20px);
+}
+
+.title_text{
+	font-size: 52px;
+	background: linear-gradient(45deg, red, green);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.ball{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: radial-gradient(circle at 65% 15%, aqua, darkblue);
+}
+
+button{
+	width: 200px;
+	height: 150px;
+}
