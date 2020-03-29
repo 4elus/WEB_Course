@@ -40,9 +40,15 @@ function startGame() {
 		}*/
 
 
-	}while (humNumber != pcNumber)
+	}while (humNumber != pcNumber && life > 0) //false or 3 > 0 true
 
-	alert("Вы угадали!");
+	
+	if (life > 0){
+		alert("Вы угадали!");
+	}else {
+		alert("Вы проиграли :(");
+	}
+
 	alert("Выши очки: "  + (points * life));
 }
 
