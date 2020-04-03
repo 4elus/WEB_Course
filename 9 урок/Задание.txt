@@ -1,0 +1,26 @@
+1) Создать базу данных. В которой будут храниться объекты автомобили.
+Свойства автомобиля: производитель, модель, год выпуска, цвет и продали ли автомобиль(true/false).
+
+В консоль вывести все автомобили, которые не проданы.
+
+2) Выберите третий элемент li , как минимум четырьмя способами
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="header">DOM</h1>
+
+	<ul>
+		<li class="one">Text 1</li>
+		<li class="twoo">Text 2</li>
+		<li class="three" id="three">Text 3</li>
+	</ul>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
