@@ -1,0 +1,15 @@
+<style>
+		.first{
+			background-color: green
+		}
+
+		.last{
+			background-color: red
+		}
+	</style>
+	
+$('li').click(function(){
+		$(this).toggleClass("last");
+})
+
+Дан код, который окрашивает элементы списка в красный цвет по нажатию. Нужно сделать, чтобы по нажатию на элемент, он становился перечеркнутым. 

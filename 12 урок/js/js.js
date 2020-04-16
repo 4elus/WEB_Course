@@ -42,7 +42,7 @@ $(document).ready(function(){
 	$("li").toggleClass('first');*/
 
 	$('li').click(function(){
-		$(this).toggleClass("last");
+		$(this).toggleClass("done");
 	});
 });
 
